@@ -1,14 +1,260 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "username": "alicej",
+      "email": "alice.johnson@example.com",
+      "phone": "+1-202-555-0171",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "role": "Admin",
+      "department": "Engineering",
+      "company": {
+        "name": "TechCorp Inc.",
+        "industry": "Software",
+        "website": "https://techcorp.example.com"
+      },
+      "address": {
+        "street": "123 Maple Avenue",
+        "city": "New York",
+        "state": "NY",
+        "zipcode": "10001",
+        "country": "USA",
+        "geo": {
+          "lat": 40.7128,
+          "lng": -74.006
+        }
+      },
+      "profile": {
+        "bio": "Full-stack developer with 8 years of experience.",
+        "website": "https://alicejohnson.dev",
+        "joined": "2019-03-15",
+        "isActive": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Martinez",
+      "username": "bobm",
+      "email": "bob.martinez@example.com",
+      "phone": "+1-310-555-0192",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "role": "Developer",
+      "department": "Product",
+      "company": {
+        "name": "InnoSoft LLC",
+        "industry": "SaaS",
+        "website": "https://innosoft.example.com"
+      },
+      "address": {
+        "street": "456 Oak Street",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90001",
+        "country": "USA",
+        "geo": {
+          "lat": 34.0522,
+          "lng": -118.2437
+        }
+      },
+      "profile": {
+        "bio": "React & Node.js enthusiast. Open source contributor.",
+        "website": "https://bobmartinez.io",
+        "joined": "2020-07-22",
+        "isActive": true
+      }
+    },
+    {
+      "id": 3,
+      "name": "Clara Smith",
+      "username": "claras",
+      "email": "clara.smith@example.com",
+      "phone": "+44-20-5550-1234",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "role": "Designer",
+      "department": "Creative",
+      "company": {
+        "name": "PixelWave Studios",
+        "industry": "Design",
+        "website": "https://pixelwave.example.com"
+      },
+      "address": {
+        "street": "78 King's Road",
+        "city": "London",
+        "state": "England",
+        "zipcode": "SW3 4NX",
+        "country": "UK",
+        "geo": {
+          "lat": 51.5074,
+          "lng": -0.1278
+        }
+      },
+      "profile": {
+        "bio": "UI/UX designer passionate about accessibility and clean aesthetics.",
+        "website": "https://clarasmith.design",
+        "joined": "2021-01-10",
+        "isActive": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "David Lee",
+      "username": "davidl",
+      "email": "david.lee@example.com",
+      "phone": "+1-512-555-0143",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "role": "Manager",
+      "department": "Operations",
+      "company": {
+        "name": "NexGen Corp",
+        "industry": "Consulting",
+        "website": "https://nexgen.example.com"
+      },
+      "address": {
+        "street": "990 Congress Ave",
+        "city": "Austin",
+        "state": "TX",
+        "zipcode": "73301",
+        "country": "USA",
+        "geo": {
+          "lat": 30.2672,
+          "lng": -97.7431
+        }
+      },
+      "profile": {
+        "bio": "Operations manager with a background in agile delivery.",
+        "website": null,
+        "joined": "2018-11-05",
+        "isActive": false
+      }
+    },
+    {
+      "id": 5,
+      "name": "Emma Wilson",
+      "username": "emmaw",
+      "email": "emma.wilson@example.com",
+      "phone": "+61-2-5550-6789",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "role": "Data Analyst",
+      "department": "Analytics",
+      "company": {
+        "name": "DataSphere Pty Ltd",
+        "industry": "Analytics",
+        "website": "https://datasphere.example.com"
+      },
+      "address": {
+        "street": "22 George Street",
+        "city": "Sydney",
+        "state": "NSW",
+        "zipcode": "2000",
+        "country": "Australia",
+        "geo": {
+          "lat": -33.8688,
+          "lng": 151.2093
+        }
+      },
+      "profile": {
+        "bio": "Data analyst specializing in Python, SQL, and business intelligence.",
+        "website": "https://emmawilson.tech",
+        "joined": "2022-04-18",
+        "isActive": true
+      }
+    },
+    {
+      "id": 6,
+      "name": "Frank Nguyen",
+      "username": "frankn",
+      "email": "frank.nguyen@example.com",
+      "phone": "+1-415-555-0109",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "role": "DevOps Engineer",
+      "department": "Infrastructure",
+      "company": {
+        "name": "CloudBase Solutions",
+        "industry": "Cloud Computing",
+        "website": "https://cloudbase.example.com"
+      },
+      "address": {
+        "street": "500 Market Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94105",
+        "country": "USA",
+        "geo": {
+          "lat": 37.7749,
+          "lng": -122.4194
+        }
+      },
+      "profile": {
+        "bio": "DevOps practitioner focused on CI/CD, Kubernetes, and AWS.",
+        "website": null,
+        "joined": "2020-09-30",
+        "isActive": true
+      }
+    },
+    {
+      "id": 7,
+      "name": "Grace Kim",
+      "username": "gracek",
+      "email": "grace.kim@example.com",
+      "phone": "+82-2-5550-3344",
+      "avatar": "https://i.pravatar.cc/150?img=16",
+      "role": "Product Manager",
+      "department": "Product",
+      "company": {
+        "name": "KoreaNet Technologies",
+        "industry": "Telecommunications",
+        "website": "https://koreanet.example.com"
+      },
+      "address": {
+        "street": "45 Gangnam-daero",
+        "city": "Seoul",
+        "state": "Gangnam-gu",
+        "zipcode": "06236",
+        "country": "South Korea",
+        "geo": {
+          "lat": 37.5172,
+          "lng": 127.0473
+        }
+      },
+      "profile": {
+        "bio": "Product manager bridging business goals with technical delivery.",
+        "website": "https://gracekim.pm",
+        "joined": "2017-06-12",
+        "isActive": true
+      }
+    },
+    {
+      "id": 8,
+      "name": "Henry Patel",
+      "username": "henryp",
+      "email": "henry.patel@example.com",
+      "phone": "+91-98-5550-7890",
+      "avatar": "https://i.pravatar.cc/150?img=20",
+      "role": "QA Engineer",
+      "department": "Quality Assurance",
+      "company": {
+        "name": "TestRight Solutions",
+        "industry": "Software Testing",
+        "website": "https://testright.example.com"
+      },
+      "address": {
+        "street": "12 MG Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipcode": "560001",
+        "country": "India",
+        "geo": {
+          "lat": 12.9716,
+          "lng": 77.5946
+        }
+      },
+      "profile": {
+        "bio": "QA engineer with expertise in Selenium, Cypress, and test automation.",
+        "website": null,
+        "joined": "2021-08-25",
+        "isActive": false
+      }
+    }
+  ]
 }
